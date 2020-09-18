@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <conio.h>
+main() {
+int i, j, linhaA, colunaA, linhaB, colunaB, x;
+
+linhaA=3
+colunaA=3
+linhaB=3
+colunaB=3
+
+float matrizA[linhaA][colunaA], matrizB[linhaB][colunaB], matrizC[linhaA][colunaB], aux = 0;
+
+if(colunaA == linhaB) {
+	 for (i=0;i<linhaA; i++) {
+      	for (j=0; j<linhaA; j++) {
+        	for (x=0; x<j1; x++) {
+          		matriz[i][j] = matriz[i][j] + (m1[i][k] * m2[k][j]); 
+
+	 for (i=0; i<linhaB; i++) {
+     	 for (j=0; j<colunaB; j++) {
+	        printf("%d ", matriz[i][j]);
+      }
+
+      printf("\n");
+
+}
+}
